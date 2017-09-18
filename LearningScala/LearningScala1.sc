@@ -41,9 +41,9 @@ object LearningScala1 {
   println(s"I can use the s prefix to use variables like $numberOne $truth $letterA")
                                                   //> I can use the s prefix to use variables like 1 true a
   // Substituting expressions (with curly brackets):
-  println(s"The s prefix isn't limited to variables; I can include any expression. Like ${1+2}")
+  println(s"The s prefix isn't limited to variables; I can include any expression. Like ${1+5}")
                                                   //> The s prefix isn't limited to variables; I can include any expression. Like
-                                                  //|  3
+                                                  //|  6
                                                  
   // Using regular expressions:
   val theUltimateAnswer: String = "To life, the universe, and everything is 42."
@@ -68,5 +68,10 @@ object LearningScala1 {
   // Write some code that takes the value of pi, doubles it, and then prints it within a string with
   // three decimal places of precision to the right.
   // Just write your code below here; any time you save the file it will automatically display the results!
+  
+  println(f"Pi is about ${pi*2}%.3f")             //> Pi is about 6,283
+
+  
+  
   
 }
